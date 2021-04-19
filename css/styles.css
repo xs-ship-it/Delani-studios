@@ -1,5 +1,11 @@
-.container{background-color: blue;
-           background-image: url("")
-    
-    
-    ;}
+.container{
+           background-image: url("");
+           background-repeat: no-repeat;
+           background-size: cover;
+    }
+
+
+
+    h1{color:white}
+    .background{background-color: yellow;}
+    img{size:1300px}
