@@ -7,7 +7,7 @@
 
 
 .services{background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true");
-          color: white;
+          color:white;
           text-align: center;
 }
 
@@ -18,5 +18,8 @@ h2{text-align: center;
 
 }
 
-
-#blanks{}
+.portfolio{
+         text-align: center;
+         
+         color:black;
+}    
