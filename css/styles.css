@@ -30,4 +30,14 @@
 
 
 }
+
+.dropdown{}
+
+.dropdown select{
+
+                 align-items: center;
+                 justify-content: space-between;
+                 cursor: pointer;
+
+}
       
