@@ -47,9 +47,19 @@
         </script>
           <button><img src="https://github.com/jonnygovish/IP3/blob/master/assets/services_icons/design_icon.png?raw=true">Design</button>
           
-          <p>this  is my first toggle</p>
+          <p>All  engineers are fluent in the latest entreprise,<br/>mobile and web development technologies</p>
       
-    
+          <script>
+            $(document).ready(function(){
+            $("button").click(function(){
+              $("p").toggle();
+            });
+            });
+          </script>
+            <button><img src="">Design</button>
+            
+            <p>All  engineers are fluent in the latest entreprise,<br/>mobile and web development technologies</p>
+        
       
         </div>
 
@@ -78,7 +88,7 @@
         <br/>
         <textarea name="message" placeholder="your message here..."rows="10" cols="80"></textarea>
         <br/>
-        <input type="text"value="send message">
+        <button>send message</button>
         <br/>
 
       </form>
