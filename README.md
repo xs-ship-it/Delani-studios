@@ -1,4 +1,4 @@
-# Delani-studios-This project is a bussiness webpage.
+# Delani-studios-This project is a business webpage.
 ## Prerequisites
 Basic  knowledge in GIT,css,html and Javascript, including an instaled version of git,jQuery  and also bootstrap.
 ##### Technologies Used
