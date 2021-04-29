@@ -1,0 +1,49 @@
+.container{
+           margin-left:20px ;
+           margin-right:20px ;
+           background-repeat: no-repeat;
+           background-size: 980px;
+}
+
+.about{text-align: center;}
+
+
+
+.services{background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true");
+          text-align: center;
+          color:white;
+         
+}
+
+
+.portfolio{
+         text-align: center;
+         display:flex;
+         color:black;
+}    
+.photos{text-align: center;}
+
+
+.form{background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true");
+      text-align: center;
+      color:white;
+
+
+}
+
+
+
+.dropdown select{
+
+                 align-items: center;
+                 justify-content: space-between;
+                 cursor: pointer;
+
+}
+.header{background-image: url(https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true);
+        text-align: center;
+        color:white;
+
+
+}
+      
