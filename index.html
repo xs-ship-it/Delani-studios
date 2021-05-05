@@ -10,6 +10,32 @@
     <Link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawe"rel="stylesheet"type="text/css">
     <link href="css/styles.css"rel="stylesheet"type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+      .photos{
+        width:90%;
+        padding:20px;
+        margin:100px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+      }
+      .box{
+        width: 250px;
+        margin:0 10px;
+        box-shadow: 0 0 20px 2px rgba(0,0,0,.1);
+      
+      }
+      .box img{
+        display:block;
+        width:100%;
+        border-radius: 5px;
+
+      }
+      .box:hover{
+      transform:scale(1.3);
+      z-index: 2;
+}
+    </style>
 </head>
 <body>
   <div class="container">
@@ -63,20 +89,22 @@
         
       
         </div>
-
+      
 
 
     <div class="photos">
-      <h3>PORTFOLIO</h3>
-      <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/portfolio/work1.jpg"alt="black image">
-      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work2.jpg?raw=true"alt ="image of a ornge page">
-      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work3.jpg?raw=true"alt= "image of a black page">
-      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work4.jpg?raw=true"alt ="image of a black page">
-      <br/>
-      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work5.jpg?raw=true"alt ="image of a website">
-      <img src ="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work6.jpg?raw=true"alt="image of a form">
-      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work7.jpg?raw=true"alt="an image of wooden art">
-      <img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work8.jpg?raw=true"alt ="image with a name of a restaurant">
+      <div class="box">
+        <h3>PORTFOLIO</h3>
+        <img src="https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/portfolio/work1.jpg"alt="black image">
+        <img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work2.jpg?raw=true"alt ="image of a ornge page">
+        <img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work3.jpg?raw=true"alt= "image of a black page">
+        <img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work4.jpg?raw=true"alt ="image of a black page">
+        <br/>
+        <img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work5.jpg?raw=true"alt ="image of a website">
+        <img src ="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work6.jpg?raw=true"alt="image of a form">
+        <img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work7.jpg?raw=true"alt="an image of wooden art">
+        <img src="https://github.com/jonnygovish/IP3/blob/master/assets/portfolio/work8.jpg?raw=true"alt ="image with a name of a restaurant">
+      </div>
     </div>
     <div class="form">
       <h3>CONTACT US</h3>
@@ -88,7 +116,7 @@
         <br/>
         <textarea name="message" placeholder="your message here..."rows="10" cols="80"></textarea>
         <br/>
-        <button>send message</button>
+        <button value="click me "onclick="alert('thank you for using our website we have recieved your message')" >send message</button>
         <br/>
 
       </form>
